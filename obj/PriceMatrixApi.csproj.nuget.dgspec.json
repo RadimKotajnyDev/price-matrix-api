@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/radimkotajny/Documents/GitHub/PriceMatrixApi/PriceMatrixApi.csproj": {}
+  },
+  "projects": {
+    "/Users/radimkotajny/Documents/GitHub/PriceMatrixApi/PriceMatrixApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/radimkotajny/Documents/GitHub/PriceMatrixApi/PriceMatrixApi.csproj",
+        "projectName": "PriceMatrixApi",
+        "projectPath": "/Users/radimkotajny/Documents/GitHub/PriceMatrixApi/PriceMatrixApi.csproj",
+        "packagesPath": "/Users/radimkotajny/.nuget/packages/",
+        "outputPath": "/Users/radimkotajny/Documents/GitHub/PriceMatrixApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/radimkotajny/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/itixo/_packaging/internal/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "LTD.Data.LTDLive": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/7.0.100/libexec/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
