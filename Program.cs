@@ -21,6 +21,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors(c =>
+{
+    c.AllowAnyOrigin();
+});
+
 app.MapControllers();
 
 app.MapPost("/seed", async (DataSeeder seeder) => await seeder.Seed());
